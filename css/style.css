@@ -7,6 +7,8 @@
     --blanco: #ffffff;
     --negro: #000000;
     --gris: #e1e1e1;
+    --error: rgb(185 0 0);
+    --envio: rgb(10, 160, 10);
 
 }
 
@@ -136,7 +138,7 @@ img{
     }
 }
 
-.navegacaion__enlace{
+.navegacion__enlace{
     display: block; /* Para que se posicionen uno debajo del otro */
     font-size: 1.8rem;
     color: var(--blanco);
@@ -178,7 +180,7 @@ img{
 
 @media (min-width: 768px) {
     .boton{
-        display: inline-block;/* Esta linea le dice toma solo el espacio necesario y tambien se le puede combinar otras propiedads */
+        display: inline-block;/* Esta linea le dice toma solo el espacio necesario y tambien se le puede combinar otras propiedades */
 
     }
 }
@@ -269,6 +271,23 @@ img{
 }
 
 /* CONTACTO */
+
+.error{
+    background-color: var(--error);
+    text-align: center;
+    color: var(--blanco);
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+.envio{
+    background-color: var(--envio);
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+    text-transform: uppercase;
+}
+
 .contacto-bg{
     background-image: url(../img/contacto.jpg);
     height: 40rem;
