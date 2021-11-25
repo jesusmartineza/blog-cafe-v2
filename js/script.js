@@ -55,7 +55,7 @@ function mostrarAlerta(mensaje, error = null) {
     if (error) {
         alerta.classList.add('error');
     } else {
-        alerta.classList.add('envio');
+        alerta.classList.add('correcto');
     }
 
     formulario.appendChild(alerta);

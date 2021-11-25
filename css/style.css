@@ -141,8 +141,14 @@ img{
 .navegacion__enlace{
     display: block; /* Para que se posicionen uno debajo del otro */
     font-size: 1.8rem;
+    font-weight: 600;
     color: var(--blanco);
     text-align: center;
+}
+
+.navegacion__enlace:hover{
+    color: var(--primario);
+    transition: 0.3s all ease;
 }
 
 /* CONTENIDO PRINCIPAL */
@@ -280,7 +286,7 @@ img{
     padding: 1rem;
 }
 
-.envio{
+.correcto{
     background-color: var(--envio);
     text-align: center;
     padding: 1rem;
